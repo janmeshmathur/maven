@@ -1,3 +1,4 @@
+node{
   def tomcatWeb = 'C:\\Program Files\\apache-tomcat-9.0.58\\webapps'
   def tomcatBin = 'C:\\Program Files\\apache-tomcat-9.0.58\\bin'
   def tomcatStatus = ''
@@ -29,7 +30,7 @@
          bat "${tomcatBin}\\startup.bat"
          sleep(time:100,unit:"SECONDS")
    }
-
+}
    
   
    
