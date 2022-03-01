@@ -23,6 +23,6 @@ node {
    }
    stage ('deploy'){
    echo 'deployment started'
-       bat '''copy C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Final_try\\target\\*.war C:\\Users\\janme\\OneDrive\\Desktop\\apache-tomcat-9.0.58\\webapps\\'''
+       bat '''copy C:\\Users\\janme\\.jenkins\\workspace\\pipeline\\target\\*.war C:\\Users\\janme\\OneDrive\\Desktop\\apache-tomcat-9.0.58\\webapps\\'''
    }
 }
